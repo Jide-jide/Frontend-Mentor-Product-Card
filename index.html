@@ -25,8 +25,16 @@
   </head>
   <body>
     <div class="grid product-card">
-      <picture class="product-images">
-        <img src="" alt="product image" />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="images/image-product-desktop.jpg"
+        />
+        <img
+          class="product-image"
+          src="images/image-product-mobile.jpg"
+          alt="IfItDoesntMatchAnyMedia"
+        />
       </picture>
       <div class="product-details">
         <h1 class="product-type">perfume</h1>
