@@ -13,6 +13,7 @@ html {
 body {
   background-color: hsl(30, 38%, 92%);
   margin: 29px 16px;
+  display: grid;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,6 +31,7 @@ body {
   font-family: var(--font-secondary);
   letter-spacing: 0.05rem;
   padding-top: 2rem;
+  justify-self: center;
 }
 
 /* card */
